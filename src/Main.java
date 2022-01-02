@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int account = 100;
-        int replenishmentAmount = 1001;
+        int replenishmentAmount = 1100;
         int bonusRuble;
         int accountWithReplenish;
         if ( replenishmentAmount >=1000){
