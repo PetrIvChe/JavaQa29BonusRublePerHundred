@@ -4,12 +4,12 @@ public class Main {
         int replenishmentAmount = 1100;
         int bonusRuble;
         int accountWithReplenish;
-        if ( replenishmentAmount >=1000){
-            bonusRuble = replenishmentAmount/100;
-        }else {
+        if (replenishmentAmount > 1000) {
+            bonusRuble = replenishmentAmount / 100;
+        } else {
             bonusRuble = 0;
         }
-        accountWithReplenish = account +  replenishmentAmount + bonusRuble;
+        accountWithReplenish = account + replenishmentAmount + bonusRuble;
         System.out.println("На вашем счёте " + accountWithReplenish + " из них начисленно " + bonusRuble + " бонусных рублей");
     }
 }
